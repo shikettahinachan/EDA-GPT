@@ -81,7 +81,7 @@ class EDAAnalyzer:
             logging.info(self.temperature)
 
         self.llm=self._get_llm()
-        # logging.info("llm data",self.llm_name, self.llm_category, self.llm)
+        logging.info("llm data",self.llm_name, self.llm_category, self.llm)
         
 
 
